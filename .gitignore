@@ -1,0 +1,22 @@
+# Never commit real research data or credentials
+.env
+.env.*
+!.env.example
+*.log
+*.xlsx
+*.xls
+*.docx
+*.pdf
+*cache*.json
+*cookie*
+raw/
+private/
+research-private/
+.venv/
+venv/
+__pycache__/
+*.pyc
+.DS_Store
+.idea/
+.vscode/
+reports/generated/
